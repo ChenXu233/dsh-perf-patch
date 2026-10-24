@@ -1,0 +1,5 @@
+# dsh-perf-patch profile patch layer — insert one loader entry for this package.
+- insert:
+    - id: perf-patch
+      name: 'dsh-perf-patch'
+      config: {}

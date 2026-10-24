@@ -1,0 +1,23 @@
+{
+  "name": "dsh-perf-patch",
+  "version": "0.1.0",
+  "description": "Runtime-only performance patches for DeepSeek Harness: coalesce the agent-mount tools/change storm, memoize tool schemas per revision, and short-circuit dsh-ops presentation probes. No third-party source is modified.",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./package.json": "./package.json"
+  },
+  "files": ["lib/index.js", "cordis.patch.yml", "README.md", "LICENSE"],
+  "keywords": ["dsh", "deepseek-harness", "cordis", "plugin", "performance"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/ChenXu233/dsh-perf-patch.git" },
+  "bugs": { "url": "https://github.com/ChenXu233/dsh-perf-patch/issues" },
+  "homepage": "https://github.com/ChenXu233/dsh-perf-patch#readme"
+}
