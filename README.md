@@ -1,3 +1,8 @@
+⚠️本仓库因上游修复了相关问题，本补丁已自然无效化，故归档处理。
+----
+⚠️ This repository has been archived because the upstream issue has been fixed, and this patch has become naturally invalid.
+----
+
 # dsh-perf-patch
 
 Runtime-only performance patches for **DeepSeek Harness (DSH)** when third-party plugins make
